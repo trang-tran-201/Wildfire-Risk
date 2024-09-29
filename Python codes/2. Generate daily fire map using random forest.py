@@ -92,7 +92,8 @@ date_list = pd.date_range(start_date, end_date, freq='D')
 print(f"Creating list of dates starting from {start_date} to {end_date}")
 print(date_list)
 
-
+date_list=date_list.strftime("%Y_%m_%d")
+print(date_list)
 for v in date_list:
     print(v)
     
