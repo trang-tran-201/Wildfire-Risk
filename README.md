@@ -1,1 +1,4 @@
 # Wildfire-Risk
+The aim of this project is to map daily probability of wildfire over the State of Hawaii. The input variables include daily relative humidity, daily maximum air temperature, daily rainfall, daily NDVI, Land cover and API. 
+The datasets were generated for each county of Hawaii (Honolulu, Big, Maui and Kauai). In the dataset, the same number of fire points and non-fire points are collected for each county based on the fire records on Hawaii. For each point or pixel (i.e., fire and non-fire), the value of each input are extracted and then they are fed into random forest model to evaluate the perfomance of model on estimating fire probability.
+The python codes are written for estimating the daily probability of fire on Honolulu county in Oahu island. These codes can be applied for other county by replacing input of Honolulu with the input of the county you want to calculate the fire probability.
